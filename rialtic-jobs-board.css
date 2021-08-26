@@ -20,7 +20,7 @@
 
 body {
     background-color: var(--full-page-background-color);
-    font-family: 'Nunito Sans', 'sans-serif';
+    font-family: Nunito Sans, sans-serif;
 }
 
 body #wrapper {
