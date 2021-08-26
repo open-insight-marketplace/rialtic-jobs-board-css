@@ -12,15 +12,15 @@
     --full-page-background-color: #FAFAFA;
     --application-background-color: #FFF;
     --footer-color: #F3F3F3;
-    --main-text-color: #222222;
-    --sub-header-color: #666;
-    --link-color: #3574D6;
+    --main-text-color: #46494d;
+    --sub-header-color: #46494d;
+    --link-color: #23B6F0;
     --field-border-color: #E1E1E1;
 }
 
 body {
     background-color: var(--full-page-background-color);
-    font-family: "Nunito Sans", 'sans-serif';
+    font-family: 'Nunito Sans', 'sans-serif';
 }
 
 body #wrapper {
@@ -46,12 +46,12 @@ body #wrapper {
 
 #main .filter-label {
     color: var(--sub-header-color);
-    font-size: 12px;
+    font-size: 16px;
     font-weight: 600;
 }
 
 #main .location {
-    font-size: 12px;
+    font-size: 16px;
     font-weight: 600;
     line-height: 18px;
     color: var(--sub-header-color);
@@ -245,13 +245,13 @@ div#application div.field label {
     color: var(--sub-header-color);
     display: block;
     float: none;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 400;
     text-align: left;
 }
 
 div#application div.field label span.asterisk {
-    font-size: 12px;
+    font-size: 14px;
 }
 
 div#application #main_fields div.field textarea {
@@ -285,7 +285,7 @@ div#application legend {
 
 div.link-container a {
     color: var(--link-color);
-    font-size: 14px;
+    font-size: 18px;
 }
 
 div#application a#add_education {
